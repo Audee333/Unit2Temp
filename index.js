@@ -25,19 +25,24 @@ function convertToCelsius(f) {
 function describeTemperature(f) {
 
   if (f < 32){
-    return "very cold";}
+    return "very cold";
+  }
 
   if (f < 64){ 
-    return "cold";}
+    return "cold"
+    ;}
 
   if (f < 86){ 
-    return "warm";}
+    return "warm";
+  }
 
   if (f < 100){
-    return "hot";}
+    return "hot";
+  }
 
   if (f > 100){
-    return "very hot";}
+    return "very hot";
+  }
 
 }
 
